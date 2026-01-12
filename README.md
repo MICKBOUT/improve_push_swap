@@ -1,4 +1,8 @@
-*This project has been created as partof the 42 curriculum by mthetcha,mboutte.*
+# warning
+This projext is a fork of an other project, the following readme came from the old project.
+The information are here to undersant the project push swap but does not concerne this fork.
+
+*This project has been created as partof the 42 curriculum by mthetcha, mboutte.*
 
 # Description
 
