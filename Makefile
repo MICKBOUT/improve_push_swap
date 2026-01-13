@@ -9,7 +9,6 @@ SRCS = \
 	push_swap.c					\
 	ft_init.c					\
 	ft_flag.c					\
-	ft_process.c				\
 	compute_disorder.c			\
 	ft_push.c					\
 	ft_push_letter.c			\
@@ -21,7 +20,6 @@ SRCS = \
 	ft_reverse_rotate_letter.c	\
 	ft_seletion.c				\
 	ft_bucket.c					\
-	ft_bucket_utils.c			\
 	ft_radix.c					\
 	ft_put_type.c				\
 	ft_print.c					\

@@ -6,7 +6,7 @@
 /*   By: mboutte <mboutte@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/08 13:50:42 by mthetcha          #+#    #+#             */
-/*   Updated: 2026/01/12 23:43:35 by mboutte          ###   ########.fr       */
+/*   Updated: 2026/01/13 14:19:00 by mboutte          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,7 @@
 # define PUSH_SWAP_H
 
 # include <limits.h>
-
 # include "push_swap_common.h"
-
-typedef struct s_bucket
-{
-	int	min;
-	int	max;
-	int	nb;
-	int	size;
-	int	range_min;
-	int	range_max;
-}	t_bucket;
 
 typedef struct s_log
 {
@@ -57,10 +46,6 @@ int		ft_reverse_rotate_ab(t_stack *a, t_stack *b, t_log *log);
 int		ft_seletion(t_stack *a, t_stack *b, t_log *log);
 int		ft_radix(t_stack *a, t_stack *b, t_log *log);
 int		ft_bucket(t_stack *a, t_stack *b, t_log *log);
-
-int		ft_sqrt(int nb);
-void	get_min_max(t_stack *a, t_bucket *bucket);
-int		get_bucket_imax(t_stack *b, int range_min);
 
 t_log	ft_init_log(void);
 
