@@ -6,7 +6,7 @@
 /*   By: mboutte <mboutte@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 09:44:31 by mthetcha          #+#    #+#             */
-/*   Updated: 2026/01/12 23:46:13 by mboutte          ###   ########.fr       */
+/*   Updated: 2026/01/13 14:52:31 by mboutte          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ static int	handle_flag(t_stack *a, t_stack *b, int flag, t_log *log)
 	if (flag % 4 == 1)
 		return (ft_seletion(a, b, log));
 	else if (flag % 4 == 2)
-		return (ft_bucket(a, b, log));
+		return (ft_chunk_base(a, b, log));
 	else if (flag % 4 == 3)
 		return (ft_radix(a, b, log));
 	if (((1 - compute_disorder(a)) * a->size) > 20)

@@ -19,7 +19,7 @@ SRCS = \
 	ft_reverse_rotate.c			\
 	ft_reverse_rotate_letter.c	\
 	ft_seletion.c				\
-	ft_bucket.c					\
+	ft_chunk_base.c				\
 	ft_radix.c					\
 	ft_put_type.c				\
 	ft_print.c					\

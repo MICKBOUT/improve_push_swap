@@ -6,7 +6,7 @@
 /*   By: mboutte <mboutte@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/11 11:24:13 by mthetcha          #+#    #+#             */
-/*   Updated: 2026/01/13 14:19:19 by mboutte          ###   ########.fr       */
+/*   Updated: 2026/01/13 14:52:31 by mboutte          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,7 +102,7 @@ int	ft_sqrt_round_up(int nb)
 	return (left);
 }
 
-int	ft_bucket(t_stack *a, t_stack *b, t_log *log)
+int	ft_chunk_base(t_stack *a, t_stack *b, t_log *log)
 {
 	int	current;
 
